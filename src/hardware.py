@@ -1,0 +1,13 @@
+# Pinos GPIO Modelo 1 (3 LEDs)
+M1_VERDE = 17
+M1_AMARELO = 18
+M1_VERMELHO = 23
+M1_PED_PRINCIPAL = 1  # Corrigido conforme Tabela 5
+M1_PED_CRUZAMENTO = 12
+
+# Pinos GPIO Modelo 2 (3 bits)
+M2_BIT0 = 24
+M2_BIT1 = 8
+M2_BIT2 = 7
+M2_PED_PRINCIPAL = 25
+M2_PED_CRUZAMENTO = 22
