@@ -23,7 +23,7 @@ python3 -m src.main
 
 ## Funcionalidades Implementadas
 - **Execução Simultânea:** Uso de `threading` para rodar ambos os semáforos ao mesmo tempo.
-- **Encerramento Gracioso:** Captura de `Ctrl+C` para desligar todos os LEDs e saídas antes de sair.
+- **Encerramento:** Captura de `Ctrl+C` para desligar todos os LEDs e saídas antes de sair.
 - **Lógica de Pedestres:**
   - **Modelo 1:** Reduz o tempo de verde de 10s para 5s se o botão for pressionado.
   - **Modelo 2:** Tempos variáveis (10-20s na principal, 5-10s no cruzamento) baseados em demanda.
